@@ -1,0 +1,148 @@
+/*header*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    overflow: hidden;
+}
+li a {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.left-nav a {
+    float: left;
+    padding-left: 15px;
+}
+.right-nav a {
+  float: right;
+  padding-right: 15px;
+}
+#apps-icon {
+color: #000;
+opacity: 0.75;
+position: relative;
+top: -5px;
+}
+li button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 132, 240);
+  border-radius: 2px;
+  border-color: rgb(66, 133, 244);
+  background-image: linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+  height: 30px;
+  width: 69.3167px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 28px;
+  position: relative;
+  top: -7px;
+}
+li button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
+}
+
+/*google logo*/
+.google-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  position: relative;
+  top: 150px;
+}
+
+/*search field and buttons*/
+.google-search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.search-field {
+  width: 559px;
+  height: 34px;
+  font-family: arial, sans-serif;
+  border-width: 0;
+  border-color: rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 15px 0;
+  z-index: 6;
+  padding-left: 10px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  transition-delay: 0s;
+  transition-duration: .2s;
+  position: relative;
+  display: block;
+  margin:0 auto;
+
+}
+.search-field:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18), 0 6px 15px 0 rgba(0, 0, 0, 0.10);
+}
+.search-buttons button {
+  color: rgb(117, 117, 117);
+  background-color: rgb(248, 248, 248);
+  background-image: linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241));
+  border-color: rgb(242, 242, 242);
+  border-radius: 2px;
+  border-width: 1px;
+  font-family: arial, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  height: 36px;
+  line-height: 27px;
+  margin: 35px 0;
+  padding: 0 16px;
+  position: relative;
+  min-width: 54px;
+  display: inline-block;
+}
+.search-buttons button:hover {
+  color: rgb(34, 34, 34);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+  background-image: linear-gradient(rgb(248, 248, 248), rgb(241, 241, 241));
+  border-color: rgb(198, 198, 198);
+}
+.google-search #search-button {
+  margin-right: 4px;
+}
+.google-search #lucky-button {
+  margin-left: 4px;
+}
+
+/*footer*/
+.left-foot a {
+  float: left;
+  padding-left: 27px;
+  line-height: 40px;
+}
+.right-foot a {
+  float: right;
+  padding-right: 27px;
+  line-height: 40px;
+}
+footer ul {
+  position: fixed;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  min-width: 980px;
+  background-color: #f2f2f2;
+  border-top: 1px rgba(198, 198, 198, .54) solid;
+}
