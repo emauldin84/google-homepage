@@ -1,4 +1,4 @@
-git@github.com:emauldin84/google-homepage.git
+https://github.com/emauldin84/google-homepage
 
 Demonstrated Skills:
 
